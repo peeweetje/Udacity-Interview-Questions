@@ -1,0 +1,77 @@
+
+
+/*
+
+1. What is the most influential book or blog post you’ve read regarding front-end development?
+
+The most influential blogs I have read about front-end development are
+the freeCodeCamp blogs where people talk about the career change they have made.
+I find these blogs very inspiring and motivating, and they helped me on my learning path.
+One of the blog posts that has served as a great guide for me is: "A roadmap to becoming
+a web developer in 2017: https://medium.freecodecamp.org/a-roadmap-to-becoming-a-web-developer-in-2017-b6ac3dddd0cf.
+There are so many new technologies to learn. This can overwhelming.
+The roadmap helped me to set clear goals for my learning path.
+
+2. If you could master one technology this year, what would it be and why?
+
+If I could only master one technology this year, it would be Vue. I have built a simple app
+in Vue, but I would like to take a deeper dive into Vue, to really master this framework.
+It is one of the technologies your company is working with, and I liked this framework when I was
+testing it out, so I would like to learn more about it. I have read that you can add Vue really
+easy to an existing project. This could be a reason why Vue is the framework of choice for some
+projects, so it would be valuable to know Vue, in addition to React (which is harder to add to an existing project).
+
+3. Describe any front-end web application framework (preferably one that you use). How does it work? What are the upsides and downsides?
+
+React is a view library which enables you to render components as viewable elements in the browser.
+It uses a virtual DOM. The virtual DOM is an object representation
+of the real DOM. React can traverse and carry out operations on the virtual DOM and use the diffing
+algorithm to determine how to make efficient changes to the DOM. It checks to see if there are any
+difference between the virtual and the real DOM. The real DOM is only updated when necessary. This makes
+React fast.
+Upsides of React are: fast, great community, use React Native for mobile apps (learn once, write everywhere),
+uses declarative code, unidirectional dataflow, component-based (reusable code), and open source.
+Downsides: bad SEO (can be resolved by server-side-rendering), passing down props multiple times (can be overcome by using Redux).
+
+4. Write a JavaScript function that takes only one argument——another function——and returns a "memoized" version of that function. A "memoized" version of a function caches and returns the results of its call so that when it is called again with the same input, it doesn’t run its computation but instead returns the results from cache. Note that previous results should be retrievable in any order without re-computation.
+
+Feel free to include your own example use, input, and output (like what is seen below).
+
+foo = function (x) {
+console.log("calculating!");
+return x + 5;
+}
+
+var memoizedFoo = memoize(foo);
+
+memoizedFoo(5);
+// calculating!
+// 10
+
+memoizedFoo(5);
+// 10 (notice how 'calculating!' is not printed this time)
+
+memoizedFoo(10);
+// calculating!
+// 15
+
+For the code, see memoize.js file.
+
+5. Create a simple webpage that has a cow image in the middle (centered horizontally on the page) and a counter label below it.
+Add the necessary code so that every time you click the cow image, the counter is incremented by 1. The counter should start with a value of 0.
+You should include a brief explanation of your code. Also, here is a URL for a cow image, https://upload.wikimedia.org/wikipedia/commons/2/21/Cow_cartoon_04.svg, if you would like to include it in your answer.
+
+See cow-clicker folder. For the code look in the App.js file (and the accompanying CSS file).
+
+6. If you were to start your front-end position today, what would be your goals a year from now?
+
+A year from now I will be able to write better code. I have learned how to test React, Redux and React Native
+applications. I have learned about UX design principles and can apply my knowledge to the websites and apps I am building.
+I improved my animation skills, and can leverage this knowledge in React and React Native.
+I have practiced my new developed skills in personal projects. At least one of these projects uses CSS Grid, and at least one of
+my personal projects will be together with a remote dev team from a learning community.
+I will have a better understanding of backend code, by learning Node.js. This will also improve my
+Javascript code.
+
+
+*/
